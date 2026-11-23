@@ -1,0 +1,7 @@
+services:
+  app:
+    build: ./app
+    container_name: mon-app
+    ports:
+      - "80:5000"
+    restart: unless-stopped
