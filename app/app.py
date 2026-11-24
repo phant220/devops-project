@@ -6,7 +6,7 @@ metrics = PrometheusMetrics(app)
 
 @app.route("/")
 def home():
-    return "<h1>Bonjour DevOps moi c'est belam ninon!</h1><p>Version 5</p>"
+    return "<h1>Bonjour DevOps je me nomme belam !</h1><p>Version 5</p>"
 
 @app.route("/health")
 def health():
